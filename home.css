@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #d8232a;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+header h1{
+    font-family: arial;
+    color: white;
+    text-align: left;
+    margin: 1em;
+}
+
+nav{
+    text-align: right;
+    margin: 1em;
+    height: 1em;
+    margin-top: 2.8em;
+}
+
+header ol{
+    list-style-type: none;
+    font-family: arial;
+    text-align: right;
+    margin-right: 1em;
+    padding-left: 1em;
+}
+
+header li{
+    display: inline;
+    text-align: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+header a:hover{
+    color: black;
+}
+
+main{
+    max-width: 84em;
+    margin: 0 auto;
+
+}
+
+h2{
+    font-style: 20px;
+    font-family: arial;
+    text-align: center;
+}
+
+.videos{
+    background-color: #f6f6f6;
+    padding: 1em;
+    text-align: center;
+}
+
+section{
+    margin-bottom: 5em;
+}
+
+.v{
+    display: flex;
+    text-align: center;
+}
+
+.v img{
+    padding: 1em;
+    text-align: center;
+}
+
+.v1 img{
+   /* background-image: url("img/muquirana1.jpg");*/
+    height: 224px;
+    width: 402px;
+   /* background-size: cover;*/
+}
+
+.v2 img{
+   /* background-image: url("img/muquirana2.jpg");*/
+    height: 224px;
+    width: 402px;
+   /* background-size: cover;*/
+}
+
+.v3 img{
+   /* background-image: url("img/muquirana3.jpg");*/
+    height: 224px;
+    width: 402px;
+   /* background-size: cover;*/
+}
+
+.inscricao{
+    background-color: #f6f6f6;
+    margin-right: 2em;
+}
+
+section{
+    display: flex;
+}
+
+.relato img{
+    height: 224px;
+    width: 402px;
+    padding: 1em;
+}
+
+.relato{
+    background-color: #d8232a;
+}
+
+.relato figure{
+    display: flex;
+}
+
+figcaption{
+    width: 11.5em;
+    margin-top: 1em;
+    font-family: arial;
+    color: white;
+}
+
+.inscricao div{
+    margin: 1em;
+}
+
+.inscricao p{
+    text-align: center;
+    font-family: arial;
+    color: black;
+}
+
+.inscricao h2{
+    padding: 5px;
+}
+
+form{
+    padding: 5px;
+    text-align: left;
+    font-family: arial;
+    color: black;
+}
+
+footer{
+    background-color: #d8232a;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
